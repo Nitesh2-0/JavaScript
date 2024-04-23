@@ -9,3 +9,7 @@ Note :: in javascript without defining his datatype we can create variable but i
 
 Note :: in javascript , jab hm variable declare karke chor dete hai to uska value "UNDEFINED" hota hai.
 
+Code Readability :: it should be always readable.
+
+ECMA Script :: it will always flow standared.
+
