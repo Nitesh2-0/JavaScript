@@ -1,1 +1,11 @@
-Node Js => iska istemal hm 
+Node Js => node js is used to run our programe without using browser and V8 engine.
+
+How many way to declare variable in javascript?
+1.) Let :- scope level variable.
+2.) Var :- module level or file level variable and it also a functional scope.
+
+Note :: in javaScript we allways prefred let not ware because of issue in block scope and functional scope.
+Note :: in javascript without defining his datatype we can create variable but it not good for use.
+
+Note :: in javascript , jab hm variable declare karke chor dete hai to uska value "UNDEFINED" hota hai.
+
