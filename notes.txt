@@ -13,3 +13,9 @@ Code Readability :: it should be always readable.
 
 ECMA Script :: it will always flow standared.
 
+// data type 
+primitive and non-primitive
+
+=> symbol is used to make value unique.
+
+** Null ko jab typeof se datatype nikalte hai to "Object" Milta hai.
