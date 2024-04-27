@@ -19,3 +19,7 @@ primitive and non-primitive
 => symbol is used to make value unique.
 
 ** Null ko jab typeof se datatype nikalte hai to "Object" Milta hai.
+
+/** Copy With Array */
+⚡Shallow Copy :: it referece to same address. means if you cnange in copy array they will reflect in actual or original array.
+⚡Deep    Copy :: it referece to different address. means if you change in copy array that will not reflect in original array.
