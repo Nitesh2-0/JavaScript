@@ -23,3 +23,11 @@ primitive and non-primitive
 /** Copy With Array */
 ⚡Shallow Copy :: it referece to same address. means if you cnange in copy array they will reflect in actual or original array.
 ⚡Deep    Copy :: it referece to different address. means if you change in copy array that will not reflect in original array.
+
+
+📍InnerHTML , textContent , innerText :: Difference -> same value milta hai
+👉 textContent -> agar kuch bhi hai jo window par hai but dikh nahi rah hai due to 
+    some css property but phirvi we can access that data through text textContent.
+👉 while jo text window par dihkega keval ohi access hoga kisi karn ki vajah se 
+    koi css laga kar hta diya gay hoga o nahi dikhega. to hm innerText.
+👉 innnerHTML hme pura value deta hai.
