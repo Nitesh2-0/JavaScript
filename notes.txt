@@ -33,3 +33,15 @@ primitive and non-primitive
 👉 innnerHTML hme pura value deta hai.
 
 ✅ convert NodeList to Array :: Arrays.from(variableInWhichURecieved)
+
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
+✅ Javascript Default Behaviour
+📍Java is syncronous type language but we can make it async
+📍javascript is a single thred language. that's why sometime it slower.
+
+👉 Blocking code Vs Non Blocking Code
+✅ Block the flow of          ✅ Does not block execution
+    Programe.
+✅ Read file Sync             ✅ Read File Async
+
