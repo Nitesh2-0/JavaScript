@@ -31,3 +31,5 @@ primitive and non-primitive
 👉 while jo text window par dihkega keval ohi access hoga kisi karn ki vajah se 
     koi css laga kar hta diya gay hoga o nahi dikhega. to hm innerText.
 👉 innnerHTML hme pura value deta hai.
+
+✅ convert NodeList to Array :: Arrays.from(variableInWhichURecieved)

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body style="background-color: rgb(21, 21, 21); color: white;">
+  <ul class="ul">
+    <li class="java">Java</li>
+    <li>Python</li>
+    <li class="javaScript">Javascript</li>
+  </ul>
+  <a id="google" href="https://google.com" style="padding: 10px ; text-decoration: none; color: green; background-color: #fff; border-radius: 5px;">google</a>
+  <script>
+
+    //  document.querySelector('.ul').addEventListener('click',(e)=>{
+    //   console.log(`click inside the ul`);
+    //  },false)
+
+    //  document.querySelector('.javaScript').addEventListener('click',(e)=>{
+    //   console.log(`click on javascript`);
+    //   e.stopPropagation();
+    //  },false)
+
+     document.querySelector('#google').addEventListener('click',(e) => {
+      console.log('google clicked');
+      e.preventDefault()
+      e.stopPropagation()
+     },false)
+
+     document.querySelector('ul').addEventListener('click',(e) =>{
+      console.log(e.target.parentNode);
+      let removeIt = e.target.parentNode
+      removeIt.remove()
+     },false)
+
+  </script>
+</body>
+</html>
+
+<!-- 
+  
+  Event :: 
+  1. type
+  2. timeStamp 
+  3. defaultPrevented
+  4. target, toElement, srcElement , currentTarget
+  5. clientX, clientY, screenY, screenX
+  6. altkey, cltKey, shiftkey, keycode
+
+  Event propogation :: bubbling event -> low to high
+  Capturing :: high to low
+
+  💡e.stopPropagation(); :: bubbling Event ko rokta hai ye method
+
+ -->
