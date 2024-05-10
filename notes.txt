@@ -34,7 +34,7 @@ primitive and non-primitive
 
 ✅ convert NodeList to Array :: Arrays.from(variableInWhichURecieved)
 
-✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+
 
 ✅ Javascript Default Behaviour
 📍Java is syncronous type language but we can make it async
@@ -44,4 +44,34 @@ primitive and non-primitive
 ✅ Block the flow of          ✅ Does not block execution
     Programe.
 ✅ Read file Sync             ✅ Read File Async
+
+
+javscript Me :: 
+Array is type of Object hi hai.
+Har ek chij object se hi atta hai. 
+prototype , inheritial behaviour.
+
+
+function , function bhi hai or object bhi hai.
+
+ => dot prototype kar ke acess kar sakte hai prototype ko :: 
+ => this se ek current context set hota hai. 
+ => This, mtlab Jisne Bulaya hai uske pass hi jaao.
+
+ /** New Keyword Secret Notes **/
+ A new object is created : the new keyword initiates the 
+ creation of a new javascript object.
+
+ A prototype is linked : the newly created object gets linked
+ to the prototype property of the constructor function. this 
+ means that it has access to properties and methods defined
+ on the constructor's prototype.
+
+ The constructor is called : the contstructor function is called with the specified 
+ arguments and this is bound to newly created object. if no explicit return value is specified 
+ from the constructor, javascript assumes this, the newly created object, to be the intended eturn value.
+
+The new object is returned : after the constructor function has 
+been called, if it doesn't return a non-private value
+(object, array, function, etc.) , the newly created object is returned.
 
