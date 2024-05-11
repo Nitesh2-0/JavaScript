@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bind Example</title>
+</head>
+<body>
+
+  <button>Click me</button>
+
+  <script>
+    class React {
+      constructor() {
+        this.library = "React";
+        this.server = "http://localhost:3000";
+
+        const button = document.querySelector('button');
+        if (button) {
+          button.addEventListener('click', this.handleClick.bind(this));
+        } else {
+          console.error("Button not found.");
+        }
+      }
+
+      handleClick() {
+        console.log('Button clicked.');
+        console.log(this);
+      }
+    }
+
+    const reactApp = new React();
+  </script>
+</body>
+</html>
+
