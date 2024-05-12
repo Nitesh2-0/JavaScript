@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chai or Code</title>
+</head>
+<body>
+  <button id="orange">Orange</button>
+  <button id="green">Green</button>
+  <script style="background-color: #2223;">
+   // closer
+    function outer(){
+      let username = 'hitesh'
+      function inner(){
+        console.log(username);
+      }
+      function innerTwo(){
+        console.log(username);
+      }
+      inner();innerTwo()
+    }
+    // outer()
+    // console.log("Too Outer : ", username);
+
+    //makeFunction 
+    function makeFunction(){
+      const name = "mozilla"; 
+      function displayName(){
+        console.log(name);
+      }
+      return displayName;
+    }
+
+    // function return kar dete ho to keval function nahi valki uska lexical scope bhi return hota hai. 
+
+    const myFunc = makeFunction()
+    // myFunc()
+  </script>
+  <script>
+    // document.getElementById("orange").onclick = function(){
+    //   document.body.style.backgroundColor = `orange`
+    // }
+    // document.getElementById("green").onclick = function(){
+    //   document.body.style.backgroundColor = `green`
+    // }
+    function clickHandler(color){
+      return function (){
+        document.body.style.backgroundColor = `${color}`
+      }
+    }
+    document.getElementById('orange').onclick = clickHandler('orange')
+    document.getElementById('green').onclick = clickHandler('green')
+
+    /** function reference means -> defination only **/
+
+  </script>
+</body>
+</html>
